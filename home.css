@@ -469,6 +469,15 @@ padding-top: calc(4.1rem + var(--nav-height));
    width: 100%;
     padding: 0 2.4rem;
   }
-    
+
+ /*============ FOOTER  ============ */    
+ #footer{
+   text-align: left;
+   background: var(--brand-green);
+ }
+
+ #footer header a{
+   color: var(--white);
+ }
     
  

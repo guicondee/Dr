@@ -548,13 +548,20 @@ body.menu-expanded button path{
   line-height: 2;
  }
 
- #footer .social-links{
+ #footer .social-links a{
   display: flex;
   align-items: center;
   justify-content: flex-start;
  
   gap: 3.2rem;
+
+  transition: 0.3s;
  }
+
+ #footer .social-links a:hover{
+  transform: translateY(-08px);
+ }
+ 
 
   /*========= BACK TO TOP =======*/
   #backToTopButton{
@@ -865,9 +872,7 @@ body.menu-expanded button path{
 
        #footer .colum-b{
         align-self: center;
-       }
- 
-     
+       }     
   }
   
 
